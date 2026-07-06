@@ -1,6 +1,6 @@
 # Employee Salary & Career Growth Analysis
 
-A SQL + Python analysis of a relational HR database, focused on how compensation evolves over an employee's career — not just what people earn, but how they got there.
+A SQL + Python analysis of a relational HR database, focused on how compensation evolves over an employee's career.
 
 ## Overview
 
@@ -10,22 +10,22 @@ The central question: **does staying longer at a company pay off, and how does t
 
 ## Tools
 
-- **PostgreSQL** — relational database, schema design, data loading
-- **SQL** — joins, CTEs, window functions, self-joins, date-range joins
-- **Python** — pandas for analysis, matplotlib for visualization
-- **Jupyter Notebook** — combining SQL, Python, and documentation in one place
+- **PostgreSQL**: relational database, schema design, data loading
+- **SQL**: joins, CTEs, window functions, self-joins, date-range joins
+- **Python**: pandas for analysis, matplotlib for visualization
+- **Jupyter Notebook**: combining SQL, Python, and documentation in one place
 
 ## Dataset
 
 Source: [Employees Database — Kaggle](https://www.kaggle.com/datasets/priyankbarbhaya/sql-analytics-case-study-employees-database)
 
 Six relational tables:
-- `employees` — core biographical/hire info
-- `departments` — department names
-- `dept_emp` — which employee worked in which department, and when
-- `dept_manager` — who managed which department, and when
-- `titles` — job title history per employee
-- `salaries` — salary history per employee
+- `employees`: core biographical/hire info
+- `departments`: department names
+- `dept_emp`: which employee worked in which department, and when
+- `dept_manager`: who managed which department, and when
+- `titles`: job title history per employee
+- `salaries`: salary history per employee
 
 ## SQL Techniques Used
 
